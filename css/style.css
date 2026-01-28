@@ -72,6 +72,11 @@ body {
   transition: 0.3s ease;
 }
 
+.nav{
+  display: flex;
+  align-items:start;
+}
+
 .nav a:hover {
   color: #3b82f6;
 }
@@ -207,6 +212,16 @@ section p {
   align-items: center;
   gap: 6px;
   transition: gap 0.3s ease, opacity 0.3s ease;
+}
+.hero-link img {
+  width: 100%;
+  padding: 4px;
+  max-width: 2rem;
+  border-radius: 30%;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .project-link:hover {
